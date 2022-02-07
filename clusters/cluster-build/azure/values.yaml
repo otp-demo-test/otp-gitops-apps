@@ -1,4 +1,4 @@
-cluster: azure1
+cluster: azure-test0
 type: azure
 imageName: img4.8.28-x86-64-appsub
 clusterSet:
