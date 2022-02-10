@@ -1,5 +1,6 @@
 azureClustersList: 
-  - azure-managed-1
+  - azure-test-1
+  - azure-test-2
   # - azure-cluster-shared-06
 
   # - azure-cluster-shared-08
