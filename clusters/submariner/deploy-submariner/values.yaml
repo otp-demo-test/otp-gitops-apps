@@ -1,8 +1,5 @@
 clustersList: 
-- aws-cluster-0
-- aws-cluster-2
-- azure-cluster-03
-- azure-cluster-06
+- aws-gitops-1
+- azure-test-1
 awsClustersList:
-- aws-cluster-0
-- aws-cluster-2
+- aws-gitops-1
