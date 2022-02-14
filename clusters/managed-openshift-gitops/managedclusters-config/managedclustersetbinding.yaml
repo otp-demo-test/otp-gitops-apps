@@ -6,4 +6,4 @@ metadata:
   name: multicloud-cluster-set
   namespace: openshift-gitops
 spec:
-  clusterSet: last-mile-gitops
+  clusterSet: multicloud-cluster-set
