@@ -3,3 +3,6 @@ generators:
 commonAnnotations:
   argocd.argoproj.io/compare-options: IgnoreExtraneous
 
+resources:
+- managed-clusters-placementrule.yaml
+- openshift-gitops-subscription.yaml
