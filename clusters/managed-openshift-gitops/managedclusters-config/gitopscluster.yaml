@@ -17,5 +17,5 @@ spec:
   placementRef:
     kind: Placement
     apiVersion: cluster.open-cluster-management.io/v1alpha1
-    name: last-mile-gitops 
+    name: multicloud-cluster-set
     namespace: openshift-gitops
