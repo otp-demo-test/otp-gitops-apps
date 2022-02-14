@@ -12,5 +12,6 @@
 apiVersion: cluster.open-cluster-management.io/v1alpha1
 kind: ManagedClusterSet
 metadata:
-  name: last-mile-gitops
+
+  name: multicloud-cluster-set
 spec: {}
