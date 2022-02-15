@@ -7,9 +7,11 @@ spec:
   clusterConditions:
     - status: "True"
       type: ManagedClusterConditionAvailable
-  labelSelector:
-          cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
-  # clusterSelector:
+  # labelSelector:
+  #         cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
+  clusterSelector:
+    matchLabels:
+      cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
   #   matchExpressions:
   #     - key: vendor
   #       operator: "In"
