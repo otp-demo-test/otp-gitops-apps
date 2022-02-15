@@ -6,16 +6,7 @@ metadata:
   namespace: openshift-gitops
 spec:
   predicates:
-    - requiredClusterSelector:
-        clusterSelector:
-          matchLabels:
-            cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
-          # matchExpressions:
-          # # - key: vendor
-          # #   operator: "In"
-          # #   values:
-          # #   - OpenShift
-          # - key: local-cluster
-          #   operator: "NotIn"
-          #   values:
-          #   - "true"
+  - requiredClusterSelector:
+      labelSelector:
+        cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
+          

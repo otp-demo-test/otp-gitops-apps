@@ -10,6 +10,7 @@ spec:
   # labelSelector:
   #         cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
   clusterSelector:
+    matchExpressions: []
     matchLabels:
       cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
   #   matchExpressions:
