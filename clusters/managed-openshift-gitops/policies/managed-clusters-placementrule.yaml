@@ -9,10 +9,10 @@ spec:
       type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - key: vendor
-        operator: "In"
-        values:
-        - OpenShift
+      # - key: vendor
+      #   operator: "In"
+      #   values:
+      #   - OpenShift
       - key: local-cluster
         operator: "NotIn"
         values:

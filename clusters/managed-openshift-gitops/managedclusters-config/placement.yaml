@@ -9,7 +9,11 @@ spec:
   - requiredClusterSelector:
       labelSelector:
         matchExpressions:
-        - key: vendor
-          operator: "In"
+        # - key: vendor
+        #   operator: "In"
+        #   values:
+        #   - OpenShift
+        - key: local-cluster
+          operator: "NotIn"
           values:
-          - OpenShift
+          - "true"
