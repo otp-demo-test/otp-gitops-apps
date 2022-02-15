@@ -8,5 +8,8 @@ spec:
   predicates:
   - requiredClusterSelector:
       labelSelector:
-        cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
-          
+        matchExpressions:
+        - key: vendor
+          operator: "In"
+          values:
+          - OpenShift
