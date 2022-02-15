@@ -8,12 +8,14 @@ spec:
   predicates:
   - requiredClusterSelector:
       labelSelector:
-        matchExpressions:
-        # - key: vendor
-        #   operator: "In"
+          cluster.open-cluster-management.io/clusterset: multicloud-cluster-set
+        # matchExpressions:
+        # # - key: vendor
+        # #   operator: "In"
+        # #   values:
+        # #   - OpenShift
+        # - key: local-cluster
+        #   operator: "NotIn"
         #   values:
-        #   - OpenShift
-        - key: local-cluster
-          operator: "NotIn"
-          values:
-          - "true"
+        #   - "true"
+        
