@@ -1,0 +1,6 @@
+cdbClusters:
+  - aws-gitops-1
+  - aws-ui-2
+  - azure-gitops-2
+  - azure-ui-3
+aliasIdentifier: ABCDEF
